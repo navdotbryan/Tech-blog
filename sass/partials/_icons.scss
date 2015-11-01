@@ -1,0 +1,21 @@
+.icon {
+	display: inline-block;
+}
+
+.icon-round {
+	@include border-radius(50%);
+}
+
+.icon-social {
+	width: 38px;
+	height: 38px;
+	margin: 0 8px;
+}
+
+.icon-facebook {
+	background: url(../img/facebook.png) no-repeat center center;
+}
+
+.icon-twitter {
+	background: url(../img/twitter.png) no-repeat center center;
+}

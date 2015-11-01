@@ -1,0 +1,51 @@
+.logo {
+	color: $color-neutral;
+	@include font-size(32);
+	text-transform: uppercase;
+	padding: 30px 0 24px;
+	margin: 0;
+}
+
+.main-header {
+	background: $color-main;
+	.navigation-list {
+		padding-bottom: 20px;
+	}
+}
+
+.navigation-item {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.navigation-link {
+	font-weight: 700;
+	color: $color-neutral;
+	padding: 5px;
+	&:hover {
+		background: $color-main-light;
+	}
+}
+
+.social-media {
+	background: $color-main;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 122px;
+	width: 100%;
+	z-index: -10;
+	& .align-content {
+		display: table;
+		margin: 20px 0 0 75%;
+		padding: 42px 0 66px;
+	}
+}
+
+.info-text {
+	color: $color-neutral;
+	display: table-cell;
+	font-weight: 700;
+	margin: 0 26px 0 0;
+	vertical-align: middle;
+}

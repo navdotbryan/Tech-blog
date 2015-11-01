@@ -1,0 +1,30 @@
+
+
+//Align content to center of viewport and will use grid width
+.align-content {
+	max-width: $grid-width;
+	margin: 0 auto;
+}
+
+.article-list {
+	display: inline-block;
+	background: $color-neutral;
+	padding: 20px;
+	width: 64%;
+	z-index: 10;
+}
+
+.main-sidebar {
+	display: inline-block;
+	float: right;
+	margin: 151px 0px 0px;
+	width: 36%;
+	padding: 20px;
+}
+
+.wrapper {
+	position: relative;
+	&>.align-content {
+		overflow: hidden;
+	}
+}

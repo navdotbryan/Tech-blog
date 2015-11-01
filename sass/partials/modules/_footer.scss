@@ -1,0 +1,33 @@
+.main-footer {
+	background: $color-background;
+	overflow: hidden;
+	padding: 40px 0;
+
+	.footer-item {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.footer-link {
+		font-weight: 700;
+		color: $color-secundary;
+		padding: 5px;
+	}
+	.info-text {
+		color: $color-secundary;
+		display: table-cell;
+		font-weight: 700;
+		margin: 0 26px 0 0;
+		vertical-align: middle;
+	}
+	.navigation-list {
+		float: left;
+		padding: 9px 0;
+	}
+	.footer-social-media {
+		float: right;
+		display: table;
+	}
+
+}
+
+

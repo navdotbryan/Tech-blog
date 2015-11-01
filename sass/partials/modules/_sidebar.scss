@@ -1,0 +1,44 @@
+.main-sidebar {
+	a {
+		color: $color-neutral-secundary;
+	}
+	.article-title {
+		color: $color-secundary;
+		padding: 0 0 10px;
+	}
+	.input-subscribe {
+		@include font-size(14);
+		margin: 5px 5px 5px 0;
+		padding: 10px;
+		width: 62%;
+	}
+	.title {
+		color: $color-main;
+	}
+	.title-decorated {
+		padding-bottom: 2px;
+		border-bottom: 2px solid $color-main;
+	}
+	.advertisement {
+		background: $color-background;
+		margin: 3% 10% 10%;
+		padding: 40% 0;
+		width: 80%;
+		span + & {
+		margin: 0 10%;
+		}
+	}
+}
+
+
+
+.website-info {
+	color: $color-related-item;
+	display: block;
+	margin: 0 0 12px;
+	padding: 0 0 20px;
+}
+
+.related-article-title {
+	margin: 0;
+}

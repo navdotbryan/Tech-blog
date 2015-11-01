@@ -1,0 +1,20 @@
+.button {
+	display: inline-block;
+	font-family: $font-family-main;
+	margin: 0 5px;
+}
+
+.button-call-to-action {
+	background: $color-call-to-action;
+	color: $color-neutral;
+}
+
+.button-more-items {
+	background: $color-main;
+	@include border-radius(7px);
+	border: none;
+	color: $color-neutral;
+	display: block;
+	margin: -23px auto 0;
+	padding: 10px 50px;
+}
